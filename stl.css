@@ -1,0 +1,188 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Hind Siliguri', sans-serif;
+  background-image: url('New logo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.nav-bar{
+  background-color: rgba(0,0,0,0.3);
+  height: 10%;
+  width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex; 
+  
+  
+}
+.nav-bar:hover{
+  background-color:rgba(0,0,0,0.6);
+ 
+}
+
+.nav-bar li{
+  list-style-type: none;
+  float: left;
+  margin-left: 35px;
+   height:10%;
+   padding-top: 10px;
+   padding-left: 10px;  
+   padding-right: 10px;  
+ }
+ .nav-bar li a{ 
+   color: white;  
+   height:35px;
+   padding: 15px;
+   flex-basis: 50%;
+ }
+ .nav-bar li a:hover{
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   background-color: rgba(0,0,0,0.9);
+   border-radius: 10px;
+ }
+
+.navitm{
+  list-style-type: none;
+  float: left;
+ margin-top: 5px;
+ margin-right:50px ;
+}
+#home{
+  height: 75vh;
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('banch-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.title{
+  font-family: 'Atma', cursive;
+  padding: 40vh;
+  text-shadow: gray  2px 2px 2px,
+                2px 2px 2px,
+                2px 2px 2px,
+                2px 2px 2px,
+                2px 2px 2px;
+  color: white;
+  position: relative;
+  font-size: 500%;
+  
+}
+.vumika{
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 3vh;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-shadow: gray  -1px 1px 1px;
+}
+.vumika:hover{
+  background-color: rgba(60,60,60,0.8);
+}
+#mulbalika{
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 3vh;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-shadow: gray  -1px 1px 1px;
+  height: 70vh;
+}
+.mulbalika{
+  float: left;
+  margin: 2%;
+  width: 45%;
+  border-radius: 2.5vh;
+}
+#mulbalika:hover{
+  background-color: rgba(60,60,60,0.8);
+}
+#mulbalok{
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 3vh;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-shadow: gray  -1px 1px 1px;
+  height: 70vh;
+}
+.mulbalok{
+  float: right;
+  margin: 2%;
+ border-radius: 2.5vh;
+  width: 45%;
+}
+#mulbalok:hover{
+  background-color: rgba(60,60,60,0.8);
+}
+#branch-1{
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 3vh;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-shadow: gray  -1px 1px 1px;
+  height: 70vh;
+}
+.branch-1{
+  float: left;
+  margin: 2%;
+  width: 45%;
+  border-radius: 2.5vh;}
+  #branch-1:hover{
+    background-color: rgba(60,60,60,0.8);
+  }
+  #branch-2{
+    margin: 3%;
+    padding: 2.5%;
+    border-radius: 3vh;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-shadow: gray  -1px 1px 1px;
+    height: 70vh;
+  }
+  .branch-2{
+    float: right;
+    margin: 2%;
+    width: 45%;
+    border-radius: 2.5vh;}
+    #branch-2:hover{
+      background-color: rgba(60,60,60,0.8);
+    }
+    #branch-3{
+      margin: 3% 3% 0% 3%;
+      padding: 2.5%;
+      border-radius: 3vh;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      text-shadow: gray  -1px 1px 1px;
+      height: 70vh;
+      
+    }
+    .branch-3{
+      float: left;
+      margin: 2%;
+      width: 45%;
+      border-radius: 2.5vh;
+      
+    }
+      #branch-3:hover{
+        background-color: rgba(60,60,60,0.8);
+      }
+      footer{
+        background-color: black;
+        color: white;
+        z-index: 1;
+        margin-top: -1%;
+        padding: 5%;
+        text-align: center;
+      }
+      th{
+        text-align: center;
+      }
